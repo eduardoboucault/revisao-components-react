@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+header {
+  text-align: center;
+  border: 1px solid#fe7e02;
+  background-color: #fe7e02;
+  padding: 16px;
+}
+main {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+p {
+  text-align: justify;
+  margin: 32px 0;
+}
+img {
+  height: 8vh;
+  margin-right: 8px;
+}
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #45525bc2;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  height: 10vh;
+}
